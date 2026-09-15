@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+
+work/
+output/
+failed/
+logs/
+
+.env
+
+knowledge/raw/
+knowledge/index/
+
+*.tmp
+*.part
