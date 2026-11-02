@@ -1,16 +1,69 @@
+# Virtual environments
 .venv/
-__pycache__/
-*.pyc
+cosyvoice_env/
+chatterbox_env/
+alltalk_tts/alltalk_environment/
+env/
 
-work/
+# Python cache & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+*.ruff_cache/
+
+# Heavy model weights and checkpoints
+models/
+chatterbox_models/
+CosyVoice/pretrained_models/
+alltalk_tts/models/
+*.pt
+*.onnx
+*.safetensors
+*.bin
+*.pth
+*.tflite
+
+# Binaries and external vendor tools
+vendor/
+system/
+*.exe
+*.dll
+
+# Large output directories and media
 output/
+work/
 failed/
 logs/
+cache/
+database/
+data/*.sqlite3
+data/*.db
+*.mp4
+*.mkv
+*.avi
+*.mp3
+*.flac
+*.wav
+# Explicitly keep voice prompt samples in voices/
+!voices/*.wav
+!voices/*.txt
 
+# Sensitive files and tokens
 .env
+.env.*
+*.token
+*.pem
+*.key
 
-knowledge/raw/
-knowledge/index/
-
+# Temporary files and docs
 *.tmp
 *.part
+*.log
+*.docx
+*.doc
+*.pdf
+
+# Upstream third party repos
+CosyVoice/
+alltalk_tts/

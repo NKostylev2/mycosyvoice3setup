@@ -1,0 +1,91 @@
+{
+  "manifest_name": "Martin Mystery AI Dubbing Pipeline Environment Manifest",
+  "version": "1.0.0",
+  "created_phase": "Phase 8.5",
+  "project_root": "E:\\AI-Dubbing",
+  "os": {
+    "system": "Windows",
+    "edition": "Microsoft Windows 11 Pro",
+    "version": "10.0.26200",
+    "build_number": "26200",
+    "architecture": "64-bit"
+  },
+  "python": {
+    "version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "executable": "E:\\AI-Dubbing\\.venv\\Scripts\\python.exe",
+    "prefix": "E:\\AI-Dubbing\\.venv",
+    "base_prefix": "C:\\Users\\kosty\\AppData\\Local\\Programs\\Python\\Python311",
+    "is_venv": true
+  },
+  "pip": "pip 26.2.1 from E:\\AI-Dubbing\\.venv\\Lib\\site-packages\\pip (python 3.11)",
+  "pytorch_and_cuda": {
+    "cuda_available": true,
+    "torch_version": "2.8.0+cu128",
+    "cuda_version": "12.8",
+    "cudnn_version": 91002,
+    "device_name": "NVIDIA GeForce RTX 3070",
+    "device_vram_gb": 8.0
+  },
+  "components": {
+    "TTS": {
+      "installed": true,
+      "version": "0.22.0",
+      "location": "E:\\AI-Dubbing\\tools\\TTS",
+      "install_mode": "editable",
+      "xtts_model_version": "v2.0.2",
+      "xtts_model_path": "E:\\AI-Dubbing\\models\\xtts"
+    },
+    "faster_whisper": {
+      "installed": true,
+      "version": "1.2.1",
+      "models": [
+        "E:\\AI-Dubbing\\models\\whisper\\faster-whisper-base",
+        "E:\\AI-Dubbing\\models\\whisper\\faster-whisper-small"
+      ]
+    },
+    "silero_vad": {
+      "installed": true,
+      "model_type": "torch_jit / onnx",
+      "models_dir": "E:\\AI-Dubbing\\models\\silero"
+    },
+    "ffmpeg": {
+      "installed": true,
+      "canonical_path": "E:\\AI-Dubbing\\vendor\\ffmpeg\\bin\\ffmpeg.exe",
+      "version": "ffmpeg version n9.0.1-27-g9b0578816c-20260910 Copyright (c) 2000-2026 the FFmpeg developers"
+    },
+    "video2x": {
+      "installed": false,
+      "status": "OPTIONAL_DOWNSTREAM / NOT_INSTALLED",
+      "description": "Optional video upscaler for final post-processing, not required for audio/dubbing pipeline"
+    },
+    "mkvtoolnix": {
+      "installed": false,
+      "status": "OPTIONAL_DOWNSTREAM / NOT_INSTALLED",
+      "description": "Optional MKV container multiplexer, FFmpeg handles primary muxing"
+    }
+  },
+  "cache_paths": {
+    "TTS_HOME": "E:\\AI-Dubbing\\cache",
+    "HF_HOME": "E:\\AI-Dubbing\\cache\\huggingface",
+    "TORCH_HOME": "E:\\AI-Dubbing\\cache\\torch",
+    "TEMP": "E:\\AI-Dubbing\\cache\\temp"
+  },
+  "requirements_freeze": "E:\\AI-Dubbing\\config\\requirements-freeze.txt",
+  "hardware": {
+    "cpu": "AMD Ryzen 5 5600 6-Core Processor",
+    "cpu_cores": 6,
+    "cpu_logical_processors": 12,
+    "gpu_name": "NVIDIA GeForce RTX 3070",
+    "gpu_form_factor": "Desktop GPU",
+    "gpu_vram_mb": 8192,
+    "gpu_vram_gb": 8.0,
+    "nvidia_driver_version": "616.92",
+    "compute_capability": "8.6"
+  },
+  "phase9_bootstrap": {
+    "module": "scripts.audio.runtime_bootstrap",
+    "runtime_lock_file": "config/phase9_runtime.json",
+    "global_cache_dependency": 0,
+    "hardcoded_external_dependencies": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "project_root": "E:\\AI-Dubbing",
+  "python": "E:\\AI-Dubbing\\.venv\\Scripts\\python.exe",
+  "tts_home": "E:\\AI-Dubbing\\cache",
+  "hf_home": "E:\\AI-Dubbing\\cache\\huggingface",
+  "torch_home": "E:\\AI-Dubbing\\cache\\torch",
+  "xtts_model_canonical": "E:\\AI-Dubbing\\models\\xtts",
+  "xtts_cache_dir": "E:\\AI-Dubbing\\cache\\tts\\tts_models--multilingual--multi-dataset--xtts_v2",
+  "voice_profiles": "E:\\AI-Dubbing\\work\\S01E01\\voice_profiles",
+  "tts_preparation": "E:\\AI-Dubbing\\work\\S01E01\\tts_preparation.json",
+  "speaker_casting": "E:\\AI-Dubbing\\work\\S01E01\\speaker_casting.json",
+  "ffmpeg": "E:\\AI-Dubbing\\vendor\\ffmpeg\\bin\\ffmpeg.exe",
+  "ffprobe": "E:\\AI-Dubbing\\vendor\\ffmpeg\\bin\\ffprobe.exe",
+  "bootstrap_module": "scripts.audio.runtime_bootstrap",
+  "target_gpu": "NVIDIA GeForce RTX 3070",
+  "cuda_version": "12.8",
+  "pytorch_version": "2.8.0+cu128",
+  "tts_library_version": "0.22.0",
+  "phase9_requirements": {
+    "total_units": 159,
+    "canonical_profiles": 10,
+    "target_headroom_dbfs": -1.0,
+    "clipping_threshold_dbfs": 0.0,
+    "zero_text_drift_required": true,
+    "zero_timing_drift_required": true,
+    "whisper_required_for_batch_tts": false,
+    "silero_required_for_batch_tts": false,
+    "mkvtoolnix_required_for_batch_tts": false,
+    "video2x_required_for_batch_tts": false
+  },
+  "runtime_lock_status": "LOCKED",
+  "phase_8_5_final_lock": "PASS"
+}

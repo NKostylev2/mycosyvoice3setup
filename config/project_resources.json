@@ -1,0 +1,621 @@
+{
+  "project_root": "E:\\AI-Dubbing",
+  "version": "1.0.0",
+  "audit_phase": "8.5",
+  "total_resources": 43,
+  "resources": [
+    {
+      "name": "XTTS-v2 (model.pth)",
+      "type": "model",
+      "path": "models\\xtts\\model.pth",
+      "canonical_path": "E:\\AI-Dubbing\\models\\xtts\\model.pth",
+      "size_bytes": 1867929118,
+      "sha256": "c7ea20001c6a0a841c77e252d8409f6a74fb423e79b3206a0771ba5989776187",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "phase8_preparation",
+        "phase9_tts"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "XTTS-v2 (speakers_xtts.pth)",
+      "type": "model",
+      "path": "models\\xtts\\speakers_xtts.pth",
+      "canonical_path": "E:\\AI-Dubbing\\models\\xtts\\speakers_xtts.pth",
+      "size_bytes": 7754818,
+      "sha256": "f0f6137c19a4eab0cbbe4c99b5babacf68b1746e50da90807708c10e645b943b",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "phase8_preparation",
+        "phase9_tts"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "XTTS-v2 (vocab.json)",
+      "type": "model",
+      "path": "models\\xtts\\vocab.json",
+      "canonical_path": "E:\\AI-Dubbing\\models\\xtts\\vocab.json",
+      "size_bytes": 361219,
+      "sha256": "928260878a59da8a72a2a5b7687fea29d5106137669d90945430fe17e415304a",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "phase8_preparation",
+        "phase9_tts"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "XTTS-v2 (config.json)",
+      "type": "model",
+      "path": "models\\xtts\\config.json",
+      "canonical_path": "E:\\AI-Dubbing\\models\\xtts\\config.json",
+      "size_bytes": 4368,
+      "sha256": "ef262b1454dd2a77e1461b0b2cd53e19b8a7624cc131b837d36df67356bc75e8",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "phase8_preparation",
+        "phase9_tts"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "XTTS-v2 (hash.md5)",
+      "type": "model",
+      "path": "models\\xtts\\hash.md5",
+      "canonical_path": "E:\\AI-Dubbing\\models\\xtts\\hash.md5",
+      "size_bytes": 32,
+      "sha256": "ef2e25fc4639bb81c6c5048740c1ee8268606a160548abaa2e2fe03b12278c54",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "phase8_preparation",
+        "phase9_tts"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Faster-Whisper-Base (model.bin)",
+      "type": "model",
+      "path": "models\\whisper\\faster-whisper-base\\model.bin",
+      "canonical_path": "E:\\AI-Dubbing\\models\\whisper\\faster-whisper-base\\model.bin",
+      "size_bytes": 145217532,
+      "sha256": "d01c3014881c9c6f3133c182f3d2887eb6ca1c789a7538c5c007196857a0a6a9",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "phase2_asr",
+        "verification"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Faster-Whisper-Base (config.json)",
+      "type": "model",
+      "path": "models\\whisper\\faster-whisper-base\\config.json",
+      "canonical_path": "E:\\AI-Dubbing\\models\\whisper\\faster-whisper-base\\config.json",
+      "size_bytes": 2309,
+      "sha256": "56a6d8110d311f19c8f0471e562832c7527f146b567275bfca59fcf7c184da9a",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "phase2_asr",
+        "verification"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Faster-Whisper-Base (tokenizer.json)",
+      "type": "model",
+      "path": "models\\whisper\\faster-whisper-base\\tokenizer.json",
+      "canonical_path": "E:\\AI-Dubbing\\models\\whisper\\faster-whisper-base\\tokenizer.json",
+      "size_bytes": 2203239,
+      "sha256": "fb7b63191e9bb045082c79fd742a3106a12c99513ab30df4a0d47fa6cb6fd0ab",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "phase2_asr",
+        "verification"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Faster-Whisper-Base (vocabulary.txt)",
+      "type": "model",
+      "path": "models\\whisper\\faster-whisper-base\\vocabulary.txt",
+      "canonical_path": "E:\\AI-Dubbing\\models\\whisper\\faster-whisper-base\\vocabulary.txt",
+      "size_bytes": 459861,
+      "sha256": "34ce3fe1c5041027b3f8d42912270993f986dbc4bb34cf27f951e34a1e453913",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "phase2_asr",
+        "verification"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Faster-Whisper-Small (model.bin)",
+      "type": "model",
+      "path": "models\\whisper\\faster-whisper-small\\model.bin",
+      "canonical_path": "E:\\AI-Dubbing\\models\\whisper\\faster-whisper-small\\model.bin",
+      "size_bytes": 483546902,
+      "sha256": "3e305921506d8872816023e4c273e75d2419fb89b24da97b4fe7bce14170d671",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "phase2_asr",
+        "verification"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Faster-Whisper-Small (config.json)",
+      "type": "model",
+      "path": "models\\whisper\\faster-whisper-small\\config.json",
+      "canonical_path": "E:\\AI-Dubbing\\models\\whisper\\faster-whisper-small\\config.json",
+      "size_bytes": 2370,
+      "sha256": "b55496ac7940a7ae47d2c01eab40edfd8701feec1229d9cce3b40014383fb828",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "phase2_asr",
+        "verification"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Faster-Whisper-Small (tokenizer.json)",
+      "type": "model",
+      "path": "models\\whisper\\faster-whisper-small\\tokenizer.json",
+      "canonical_path": "E:\\AI-Dubbing\\models\\whisper\\faster-whisper-small\\tokenizer.json",
+      "size_bytes": 2203239,
+      "sha256": "fb7b63191e9bb045082c79fd742a3106a12c99513ab30df4a0d47fa6cb6fd0ab",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "phase2_asr",
+        "verification"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Faster-Whisper-Small (vocabulary.txt)",
+      "type": "model",
+      "path": "models\\whisper\\faster-whisper-small\\vocabulary.txt",
+      "canonical_path": "E:\\AI-Dubbing\\models\\whisper\\faster-whisper-small\\vocabulary.txt",
+      "size_bytes": 459861,
+      "sha256": "34ce3fe1c5041027b3f8d42912270993f986dbc4bb34cf27f951e34a1e453913",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "phase2_asr",
+        "verification"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Silero VAD (silero_vad.jit)",
+      "type": "model",
+      "path": "models\\silero\\silero_vad.jit",
+      "canonical_path": "E:\\AI-Dubbing\\models\\silero\\silero_vad.jit",
+      "size_bytes": 2272526,
+      "sha256": "e1122837f4154c511485fe0b9c64455f7b929c96fbb8d79fbdb336383ebd3720",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "phase3_vad",
+        "acoustic_segmentation"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Silero VAD (silero_vad.onnx)",
+      "type": "model",
+      "path": "models\\silero\\silero_vad.onnx",
+      "canonical_path": "E:\\AI-Dubbing\\models\\silero\\silero_vad.onnx",
+      "size_bytes": 2327524,
+      "sha256": "1a153a22f4509e292a94e67d6f9b85e8deb25b4988682b7e174c65279d8788e3",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "phase3_vad",
+        "acoustic_segmentation"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Silero VAD (silero_vad_16k.safetensors)",
+      "type": "model",
+      "path": "models\\silero\\silero_vad_16k.safetensors",
+      "canonical_path": "E:\\AI-Dubbing\\models\\silero\\silero_vad_16k.safetensors",
+      "size_bytes": 1239748,
+      "sha256": "c59271c284ae9c8335d795d60e0bfdb71aaaceec578d9bd9ffc1b8153c319ea1",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "phase3_vad",
+        "acoustic_segmentation"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Silero VAD (silero_vad_16k_op15.onnx)",
+      "type": "model",
+      "path": "models\\silero\\silero_vad_16k_op15.onnx",
+      "canonical_path": "E:\\AI-Dubbing\\models\\silero\\silero_vad_16k_op15.onnx",
+      "size_bytes": 1289603,
+      "sha256": "7ed98ddbad84ccac4cd0aeb3099049280713df825c610a8ed34543318f1b2c49",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "phase3_vad",
+        "acoustic_segmentation"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Silero VAD (silero_vad_16k_sequence.onnx)",
+      "type": "model",
+      "path": "models\\silero\\silero_vad_16k_sequence.onnx",
+      "canonical_path": "E:\\AI-Dubbing\\models\\silero\\silero_vad_16k_sequence.onnx",
+      "size_bytes": 1246165,
+      "sha256": "9ccdacc4719d8aa7e45a77536bfabec45a03ba1f2fad5e241ab4060b24238a85",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "phase3_vad",
+        "acoustic_segmentation"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Silero VAD (silero_vad_half.onnx)",
+      "type": "model",
+      "path": "models\\silero\\silero_vad_half.onnx",
+      "canonical_path": "E:\\AI-Dubbing\\models\\silero\\silero_vad_half.onnx",
+      "size_bytes": 1280395,
+      "sha256": "1e0b195ad4806595ef4466f419d16fca7e4afcfc6669b8c0b5f76ea87547c769",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "phase3_vad",
+        "acoustic_segmentation"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Silero VAD (silero_vad_op18_ifless.onnx)",
+      "type": "model",
+      "path": "models\\silero\\silero_vad_op18_ifless.onnx",
+      "canonical_path": "E:\\AI-Dubbing\\models\\silero\\silero_vad_op18_ifless.onnx",
+      "size_bytes": 2845718,
+      "sha256": "7671cd04b004e9076da0d4a7b1a5aec36adf161c39230c1cb94a4fd5db6bbd28",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "phase3_vad",
+        "acoustic_segmentation"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Silero VAD (silero_vad_openvino_16k.onnx)",
+      "type": "model",
+      "path": "models\\silero\\silero_vad_openvino_16k.onnx",
+      "canonical_path": "E:\\AI-Dubbing\\models\\silero\\silero_vad_openvino_16k.onnx",
+      "size_bytes": 1288203,
+      "sha256": "7776b81ad1b0350c15d7f1555943b9232eb53e9ca5d989c6d0cea9ebc8664d87",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "phase3_vad",
+        "acoustic_segmentation"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "FFmpeg (ffmpeg.exe)",
+      "type": "executable",
+      "path": "vendor\\ffmpeg\\bin\\ffmpeg.exe",
+      "canonical_path": "E:\\AI-Dubbing\\vendor\\ffmpeg\\bin\\ffmpeg.exe",
+      "size_bytes": 163218432,
+      "sha256": "5009b96351d6cf3c591327396c8dff775b2c80eb0f3a7a925f3d6d92db1afd91",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "audio_extraction",
+        "audio_processing",
+        "video_muxing"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "FFmpeg (ffprobe.exe)",
+      "type": "executable",
+      "path": "vendor\\ffmpeg\\bin\\ffprobe.exe",
+      "canonical_path": "E:\\AI-Dubbing\\vendor\\ffmpeg\\bin\\ffprobe.exe",
+      "size_bytes": 163017216,
+      "sha256": "ee246855c199261554b2de7c9fb39a37291cb7ef85c6425622fa53521e032f2d",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "audio_extraction",
+        "audio_processing",
+        "video_muxing"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "FFmpeg (ffplay.exe)",
+      "type": "executable",
+      "path": "vendor\\ffmpeg\\bin\\ffplay.exe",
+      "canonical_path": "E:\\AI-Dubbing\\vendor\\ffmpeg\\bin\\ffplay.exe",
+      "size_bytes": 165256192,
+      "sha256": "1aee270eb0b2cfe674d02f28e9f41dfee635411b4832997f312d763ea45e4c23",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "audio_extraction",
+        "audio_processing",
+        "video_muxing"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Python 3.11 Runtime Interpreter",
+      "type": "runtime",
+      "path": ".venv\\Scripts\\python.exe",
+      "canonical_path": "E:\\AI-Dubbing\\.venv\\Scripts\\python.exe",
+      "size_bytes": 274712,
+      "sha256": "21bb438c0d4a6f1f164b9a646f6ee000340185e5871180aec06db8d3f07c0082",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "all_phases"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Python Requirements Freeze",
+      "type": "configuration",
+      "path": "config\\requirements-freeze.txt",
+      "canonical_path": "E:\\AI-Dubbing\\config\\requirements-freeze.txt",
+      "size_bytes": 3656,
+      "sha256": "c74dbe4a72d3ada779dcd69f73a1b5473224ab92e9f5a4fc9b1fa406e8ed791d",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "reproducibility",
+        "environment_setup"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Voice Reference (vp_billy)",
+      "type": "reference_audio",
+      "path": "work\\S01E01\\voice_profiles\\vp_billy\\selected\\reference.wav",
+      "canonical_path": "E:\\AI-Dubbing\\work\\S01E01\\voice_profiles\\vp_billy\\selected\\reference.wav",
+      "size_bytes": 237308,
+      "sha256": "81f9607c17214f959447a57a36a070bf5b2c860774ac6fe2a37f7ad6879731be",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "phase8_preparation",
+        "phase9_tts"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Voice Reference (vp_diana_lombard)",
+      "type": "reference_audio",
+      "path": "work\\S01E01\\voice_profiles\\vp_diana_lombard\\selected\\reference.wav",
+      "canonical_path": "E:\\AI-Dubbing\\work\\S01E01\\voice_profiles\\vp_diana_lombard\\selected\\reference.wav",
+      "size_bytes": 216092,
+      "sha256": "1e670e44adf02b390dc1f1d63a4f73abe648d37a87bb9fcfe077dbbf65d6a098",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "phase8_preparation",
+        "phase9_tts"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Voice Reference (vp_ians_mother)",
+      "type": "reference_audio",
+      "path": "work\\S01E01\\voice_profiles\\vp_ians_mother\\selected\\reference.wav",
+      "canonical_path": "E:\\AI-Dubbing\\work\\S01E01\\voice_profiles\\vp_ians_mother\\selected\\reference.wav",
+      "size_bytes": 271004,
+      "sha256": "0792632c3a44f476baad6ddb1dcb3965589aefbdd333a19d0d8c5a62b6a83aa9",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "phase8_preparation",
+        "phase9_tts"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Voice Reference (vp_java)",
+      "type": "reference_audio",
+      "path": "work\\S01E01\\voice_profiles\\vp_java\\selected\\reference.wav",
+      "canonical_path": "E:\\AI-Dubbing\\work\\S01E01\\voice_profiles\\vp_java\\selected\\reference.wav",
+      "size_bytes": 90380,
+      "sha256": "ba1b093abbc4fa82139f54864f76ef8c12d687ffbc3ed4c5d9e498f4ff253b0c",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "phase8_preparation",
+        "phase9_tts"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Voice Reference (vp_librarian)",
+      "type": "reference_audio",
+      "path": "work\\S01E01\\voice_profiles\\vp_librarian\\selected\\reference.wav",
+      "canonical_path": "E:\\AI-Dubbing\\work\\S01E01\\voice_profiles\\vp_librarian\\selected\\reference.wav",
+      "size_bytes": 226796,
+      "sha256": "a0992a19ae70d95effb080e05dad56a9594216214bc93c748138e4197e864597",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "phase8_preparation",
+        "phase9_tts"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Voice Reference (vp_martin_mystery)",
+      "type": "reference_audio",
+      "path": "work\\S01E01\\voice_profiles\\vp_martin_mystery\\selected\\reference.wav",
+      "canonical_path": "E:\\AI-Dubbing\\work\\S01E01\\voice_profiles\\vp_martin_mystery\\selected\\reference.wav",
+      "size_bytes": 257372,
+      "sha256": "b44a9591eb962e7c3579cfe3cdc681106df362aa1e0540d150552344c0cfcca2",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "phase8_preparation",
+        "phase9_tts"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Voice Reference (vp_mom)",
+      "type": "reference_audio",
+      "path": "work\\S01E01\\voice_profiles\\vp_mom\\selected\\reference.wav",
+      "canonical_path": "E:\\AI-Dubbing\\work\\S01E01\\voice_profiles\\vp_mom\\selected\\reference.wav",
+      "size_bytes": 203708,
+      "sha256": "be2747ac3d4ecbe431aeae2201cf583f0a72958546b82faa25a093fdb0fee800",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "phase8_preparation",
+        "phase9_tts"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Voice Reference (vp_monster_bogeyman)",
+      "type": "reference_audio",
+      "path": "work\\S01E01\\voice_profiles\\vp_monster_bogeyman\\selected\\reference.wav",
+      "canonical_path": "E:\\AI-Dubbing\\work\\S01E01\\voice_profiles\\vp_monster_bogeyman\\selected\\reference.wav",
+      "size_bytes": 71228,
+      "sha256": "05c8b67db35259ab0082b2163143e1f0ad69c71e60825fb24c20239cb3aa9e0a",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "phase8_preparation",
+        "phase9_tts"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Voice Reference (vp_nelly)",
+      "type": "reference_audio",
+      "path": "work\\S01E01\\voice_profiles\\vp_nelly\\selected\\reference.wav",
+      "canonical_path": "E:\\AI-Dubbing\\work\\S01E01\\voice_profiles\\vp_nelly\\selected\\reference.wav",
+      "size_bytes": 147068,
+      "sha256": "f9ff59cbe4148e633bb7d92827e977ff37e95840b4a7157da8cf8429f11367bc",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "phase8_preparation",
+        "phase9_tts"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Voice Reference (vp_townsperson)",
+      "type": "reference_audio",
+      "path": "work\\S01E01\\voice_profiles\\vp_townsperson\\selected\\reference.wav",
+      "canonical_path": "E:\\AI-Dubbing\\work\\S01E01\\voice_profiles\\vp_townsperson\\selected\\reference.wav",
+      "size_bytes": 122060,
+      "sha256": "8d709d8dadb160efa2b540f0b7db218cb610b492f0bcb586a040870c4296b6a8",
+      "classification": "PROJECT_LOCAL",
+      "required_for": [
+        "phase8_preparation",
+        "phase9_tts"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Local Cache (tts)",
+      "type": "cache",
+      "path": "cache\\tts",
+      "canonical_path": "E:\\AI-Dubbing\\cache\\tts",
+      "size_bytes": 0,
+      "sha256": "DIRECTORY",
+      "classification": "CACHE",
+      "required_for": [
+        "local_caching",
+        "isolation"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Local Cache (huggingface)",
+      "type": "cache",
+      "path": "cache\\huggingface",
+      "canonical_path": "E:\\AI-Dubbing\\cache\\huggingface",
+      "size_bytes": 0,
+      "sha256": "DIRECTORY",
+      "classification": "CACHE",
+      "required_for": [
+        "local_caching",
+        "isolation"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Local Cache (torch)",
+      "type": "cache",
+      "path": "cache\\torch",
+      "canonical_path": "E:\\AI-Dubbing\\cache\\torch",
+      "size_bytes": 0,
+      "sha256": "DIRECTORY",
+      "classification": "CACHE",
+      "required_for": [
+        "local_caching",
+        "isolation"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Local Cache (temp)",
+      "type": "cache",
+      "path": "cache\\temp",
+      "canonical_path": "E:\\AI-Dubbing\\cache\\temp",
+      "size_bytes": 0,
+      "sha256": "DIRECTORY",
+      "classification": "CACHE",
+      "required_for": [
+        "local_caching",
+        "isolation"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "name": "MKVToolNix",
+      "type": "executable",
+      "path": "vendor\\mkvtoolnix\\mkvmerge.exe",
+      "canonical_path": "N/A",
+      "size_bytes": 0,
+      "sha256": "NOT_INSTALLED",
+      "classification": "OPTIONAL",
+      "required_for": [
+        "phase10_muxing_optional"
+      ],
+      "status": "NOT_INSTALLED"
+    },
+    {
+      "name": "Video2X",
+      "type": "executable",
+      "path": "vendor\\video2x\\video2x.exe",
+      "canonical_path": "N/A",
+      "size_bytes": 0,
+      "sha256": "NOT_INSTALLED",
+      "classification": "OPTIONAL",
+      "required_for": [
+        "video_upscaling_optional"
+      ],
+      "status": "NOT_INSTALLED"
+    },
+    {
+      "name": "NVIDIA GPU Driver & CUDA Runtime",
+      "type": "system_driver",
+      "path": "System32/DriverStore",
+      "canonical_path": "C:\\Windows\\System32\\nvcuda.dll",
+      "size_bytes": 0,
+      "sha256": "SYSTEM_MANAGED",
+      "classification": "EXTERNAL_SYSTEM",
+      "required_for": [
+        "gpu_acceleration"
+      ],
+      "status": "ACTIVE"
+    }
+  ],
+  "verified_host": {
+    "os": "Microsoft Windows 11 Pro (Build 26200)",
+    "cpu": "AMD Ryzen 5 5600 6-Core Processor",
+    "gpu": "NVIDIA GeForce RTX 3070 (Desktop, 8GB VRAM, Driver 616.92)",
+    "cuda": "12.8",
+    "torch": "2.8.0+cu128"
+  },
+  "runtime_bootstrap": {
+    "runtime_bootstrap_script": "scripts/audio/runtime_bootstrap.py",
+    "phase9_runtime_config": "config/phase9_runtime.json",
+    "global_cache_dependency": 0
+  }
+}

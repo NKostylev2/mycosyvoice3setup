@@ -1,0 +1,13 @@
+torch>=2.0.1
+torchaudio>=2.0.1
+transformers>=4.40.0
+hyperpyyaml
+onnxruntime-gpu
+soundfile
+numpy
+scipy
+librosa
+razdel
+openai-whisper
+gradio>=4.0.0
+resampy
